@@ -1,0 +1,36 @@
+.carousel .carousel-item {
+  height: 30vw;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  min-height: 100px;
+}
+
+h2 {
+  color: #424242;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  margin: 0;
+}
+
+#phone {
+  text-decoration: none;
+}
+
+#icon {
+  width: 100px;
+}
+
+#icon2 {
+  margin-top: 10px;
+  width: 60px;
+}
+/*# sourceMappingURL=styles.css.map */
