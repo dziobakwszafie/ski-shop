@@ -1,4 +1,6 @@
-
+body { 
+  background-image: url("../img/papyrus.png") !important ; 
+}
 .carousel .carousel-item {
     height: 30vw;
 }
@@ -26,4 +28,13 @@ p{
 #icon2{
   margin-top: 10px;
   width: 60px;
+}
+.jumbotron{
+  margin: 0 !important;
+}
+#skis{
+  margin-bottom: 10px
+}
+.navbar-nav{
+  z-index: 50;
 }
