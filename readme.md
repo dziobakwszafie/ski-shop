@@ -1,1 +1,1 @@
-kaszanka 
+Just a simple ski mini-shop

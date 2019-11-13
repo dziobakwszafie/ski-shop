@@ -1,0 +1,23 @@
+{
+  "name": "ski_shop",
+  "version": "1.0.0",
+  "description": "little ski shop",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dziobakwszafie/ski_shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dziobakwszafie/ski_shop/issues"
+  },
+  "homepage": "https://github.com/dziobakwszafie/ski_shop#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
