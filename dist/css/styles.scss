@@ -1,23 +1,75 @@
+
+
+//Colors 
+$bgPrimary: #72a2c0 !important;
+$bgSecond: #1d65a6;
+$bgThird: #192e5b;
+$colorPrimary: #00743f !important;
+$colorSecond: #f2a104;
+
+
+
+//Font sizes 
+$textSmall: .6em;
+$textMedium: .8em;
+$textBig: 1.5em;
+
+
+
 body { 
-  background-image: url("../img/papyrus.png") !important ; 
-}
-.carousel .carousel-item {
-    height: 30vw;
-}
-.carousel-item img {
-    position: absolute;
-    top: -50%;
-    left: 0;
-    min-height: 100px;
-}
-h2{
-    color: rgb(66, 66, 66);
+  background: $bgThird !important; 
 }
 html{
   scroll-behavior: smooth;
 }
-p{
-  margin: 0;
+#intro{
+  height: calc(100vh - 86px);
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+//Navigation
+
+.navbar-brand{
+  color: $bgPrimary !important;
+  font-size: 2.5em;
+}
+.nav-link{
+  color: $bgPrimary !important;
+  font-size: 1.25em;
+}
+#intro-text{
+  background: hsla(0, 0%, 0%, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+#intro-text_ctn{
+  max-width: 1000px;
+}
+
+#main-skis{
+  background: hsla(0, 0%, 0%, 0.6);
+  color: white;
+  p{
+    margin: 0;
+  }
+}
+
+
+.skis-heading{
+  background: hsla(0, 0%, 0%, 0.6);
+  padding: 15px;
+  color: white;
+  margin-bottom: 0;
+}
+
+
+//Elements 
+footer{
+  background: $bgSecond;
 }
 #phone{
   text-decoration: none;
@@ -29,12 +81,17 @@ p{
   margin-top: 10px;
   width: 60px;
 }
-.jumbotron{
-  margin: 0 !important;
-}
-#skis{
-  margin-bottom: 10px
-}
-.navbar-nav{
-  z-index: 50;
+.scroll-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 30px;
+  border-radius: 50%;
+  i{
+    color: black;
+    transform: scale(2);
+  }
+  :hover{
+    color: $bgPrimary;
+  }
 }
