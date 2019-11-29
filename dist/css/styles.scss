@@ -1,6 +1,6 @@
 
 
-//Colors 
+/*--------------------Colors---------------------*/
 $bgPrimary: #72a2c0 !important;
 $bgSecond: #1d65a6;
 $bgThird: #192e5b;
@@ -8,16 +8,15 @@ $colorPrimary: #00743f !important;
 $colorSecond: #f2a104;
 
 
-
-//Font sizes 
+/*-------------------Font sizes---------------------*/
 $textSmall: .6em;
 $textMedium: .8em;
 $textBig: 1.5em;
 
 
-
+/*--------------------Body---------------------*/
 body { 
-  background: $bgThird !important; 
+  background: hsla(0, 0%, 0%, 0.212) !important; 
 }
 html{
   scroll-behavior: smooth;
@@ -30,8 +29,11 @@ html{
 }
 
 
-//Navigation
 
+/*--------------------Navigation---------------------*/
+nav{
+  background-color: $bgThird;
+}
 .navbar-brand{
   color: $bgPrimary !important;
   font-size: 2.5em;
@@ -43,33 +45,28 @@ html{
 #intro-text{
   background: hsla(0, 0%, 0%, 0.6);
   padding: 15px;
-  border-radius: 10px;
   color: white;
 }
 #intro-text_ctn{
   max-width: 1000px;
 }
-
 #main-skis{
-  background: hsla(0, 0%, 0%, 0.6);
-  color: white;
+  color: black;
   p{
     margin: 0;
   }
 }
-
-
 .skis-heading{
-  background: hsla(0, 0%, 0%, 0.6);
   padding: 15px;
-  color: white;
-  margin-bottom: 0;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-size: 2em;
 }
 
 
-//Elements 
+/*--------------------Elements---------------------*/
 footer{
-  background: $bgSecond;
+  background: $bgThird;
 }
 #phone{
   text-decoration: none;

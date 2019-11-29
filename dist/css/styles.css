@@ -1,5 +1,8 @@
+/*--------------------Colors---------------------*/
+/*-------------------Font sizes---------------------*/
+/*--------------------Body---------------------*/
 body {
-  background: #192e5b !important;
+  background: rgba(0, 0, 0, 0.212) !important;
 }
 
 html {
@@ -11,6 +14,11 @@ html {
   background-image: url(../img/bg.jpg);
   background-position: center;
   background-size: cover;
+}
+
+/*--------------------Navigation---------------------*/
+nav {
+  background-color: #192e5b;
 }
 
 .navbar-brand {
@@ -26,7 +34,6 @@ html {
 #intro-text {
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
-  border-radius: 10px;
   color: white;
 }
 
@@ -35,8 +42,7 @@ html {
 }
 
 #main-skis {
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
+  color: black;
 }
 
 #main-skis p {
@@ -44,14 +50,15 @@ html {
 }
 
 .skis-heading {
-  background: rgba(0, 0, 0, 0.6);
   padding: 15px;
-  color: white;
-  margin-bottom: 0;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 2em;
 }
 
+/*--------------------Elements---------------------*/
 footer {
-  background: #1d65a6;
+  background: #192e5b;
 }
 
 #phone {
