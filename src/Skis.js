@@ -40,7 +40,7 @@ const allThings = [
         długosc: '180cm',
     },
     {
-        nazwa: 'Atom',
+        nazwa: 'Fish',
         długosc: '184cm',
     }
 ];
