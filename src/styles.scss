@@ -1,6 +1,4 @@
-
-
-/*--------------------Colors---------------------*/
+/*--------------------Colors-------------------*/
 $bgPrimary: #72a2c0 !important;
 $bgSecond: #1d65a6;
 $bgThird: #192e5b;
@@ -8,13 +6,15 @@ $colorPrimary: #00743f !important;
 $colorSecond: #f2a104;
 
 
-/*-------------------Font sizes---------------------*/
+
+/*--------------------Font sizes--------------------*/
 $textSmall: .6em;
 $textMedium: .8em;
 $textBig: 1.5em;
 
 
-/*--------------------Body---------------------*/
+
+/*--------------------Body--------------------*/
 body { 
   background: hsla(0, 0%, 0%, 0.212) !important; 
 }
@@ -30,7 +30,7 @@ html{
 
 
 
-/*--------------------Navigation---------------------*/
+/*--------------------Navigation-------------------*/
 nav{
   background-color: $bgThird;
 }
@@ -63,13 +63,17 @@ nav{
   font-size: 2em;
 }
 
-/*---------Skis-----------------*/
+
+
+/*--------------------Skis--------------------*/
 .skis-image{
   width:auto;
   height:400px;
 }
 
-/*--------------------Elements---------------------*/
+
+
+/*--------------------Elements--------------------*/
 footer{
   background: $bgThird;
 }
