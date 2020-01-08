@@ -1,0 +1,35 @@
+/*--------------------Colors-------------------*/
+$bgPrimary: #72a2c0 !important;
+$bgSecond: #1d65a6;
+$bgThird: #192e5b;
+$colorPrimary: #00743f !important;
+$colorSecond: #f2a104;
+
+
+
+/*--------------------Font sizes--------------------*/
+$textSmall: .6em;
+$textMedium: .8em;
+$textBig: 1.5em;
+
+
+
+/*--------------------Skis--------------------*/
+.skis-image{
+  width:auto;
+  height:400px;
+}
+.skis-heading{
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+#main-skis{
+  color: black;
+  p{
+    margin: 0;
+  }
+}
+
+
