@@ -1,0 +1,13 @@
+/*--------------------Colors-------------------*/
+/*--------------------Font sizes--------------------*/
+/*--------------------Header--------------------*/
+#intro-text {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  color: white;
+}
+
+#intro-text_ctn {
+  max-width: 1000px;
+}
+/*# sourceMappingURL=styles.css.map */

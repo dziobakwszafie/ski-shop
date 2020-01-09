@@ -1,12 +1,27 @@
 import React, { Component } from 'react';
 import './styles.css';
+import data from './skis-table.json'
+import Stuff from './Stuff/Stuff';
 
 class Sort extends Component {
-    render() {
+    constructor(props){
+        super(props)
+        this.state = {
+            data: data
+        }
+        this.sortBy = this.sortBy.bind(this)
+    }
+    sortBy(key) {
+        this.setState ({
+            data: data.sort( (a, b) => a[key] < b[key])
+        })
+    }
+    render () {
         return (
-            <h3 class="skis-heading text-center" id="skis">Tu bydzie sortowanie</h3>
+            <Stuff data={this.state.data} sortBy={this.sortBy}/>
         );
     }
 }
 
 export default Sort;
+

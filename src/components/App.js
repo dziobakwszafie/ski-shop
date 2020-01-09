@@ -4,7 +4,7 @@ import Header from './Header/Header';
 import Navigation from './Navigation/Navigation';
 import Skis from './Skis/Skis';
 import Sort from './Sort/Sort';
-import Modal from './Modal/Modal';
+import ModalWindow from './ModalWindow/ModalWindow';
 
 
 
@@ -14,7 +14,7 @@ function App() {
       <Navigation />
       <Header />
       <Sort />
-      <Modal />
+      <ModalWindow />
       <h3 class="skis-heading text-center" id="skis">Narty</h3>
       <Skis />
     </body>
