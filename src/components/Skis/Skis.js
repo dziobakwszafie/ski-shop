@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import './styles.css';
+//todo przerób na kontener
+//dodaj index.js - zrób tam mapstatetoprops
+// w skis zrób iteracja po pętli - funkcja map
+//zmien import w app.js
 
+
+//jak w pętli to dodajemy key={`${index}ski-item`}  
 class Skis extends Component {
     render() {
         return (
             <div class="container" id="main-skis">
                 <div class="row">
+
+
                     <Items myPhoto={allThings[0].photo} myMiniPhoto={allThings[0].miniPhoto} myModel={allThings[0].model} myLength={allThings[0].lenght} myRadius={allThings[0].radius} myCondition={allThings[0].condition} myPrice={allThings[0].price}/>
                     <Items myPhoto={allThings[1].photo} myMiniPhoto={allThings[1].miniPhoto} myModel={allThings[1].model} myLength={allThings[1].lenght} myRadius={allThings[1].radius} myCondition={allThings[1].condition} myPrice={allThings[1].price}/>
                     <Items myPhoto={allThings[2].photo} myMiniPhoto={allThings[2].miniPhoto} myModel={allThings[2].model} myLength={allThings[2].lenght} myRadius={allThings[2].radius} myCondition={allThings[2].condition} myPrice={allThings[2].price}/>

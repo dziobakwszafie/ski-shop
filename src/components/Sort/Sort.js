@@ -7,15 +7,23 @@ class Sort extends Component {
     constructor(props){
         super(props)
         this.state = {
-            data: data
+            data
         }
         this.sortBy = this.sortBy.bind(this)
     }
     sortBy(key) {
+        const sorted = this.state.data.sort( (a, b) => { 
+            ///console.log(a[key], b[key]) 
+            if(a[key] === b[key]){
+                return 0;
+            }
+            return a[key] < b[key] ? -1 : 1;
+        });
         this.setState ({
-            data: data.sort( (a, b) => a[key] < b[key])
+            data: sorted
         })
     }
+
     render () {
         return (
             <Stuff data={this.state.data} sortBy={this.sortBy}/>

@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './styles.css';
 
-class Navigation extends Component {
+class Navigation extends PureComponent {
     render() {
+
+     
         return (
         <nav class="navbar navbar-expand-lg navbar-dark shadow-sm full-bg-img" id="navbutton">
           <a class="navbar-brand" href="#"><b>Narciochy</b></a>
