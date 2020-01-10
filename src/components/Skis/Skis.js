@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
-//todo przerób na kontener
+// przerób na kontener
 //dodaj index.js - zrób tam mapstatetoprops
 // w skis zrób iteracja po pętli - funkcja map
 //zmien import w app.js

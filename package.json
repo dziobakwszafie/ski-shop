@@ -13,6 +13,7 @@
     "react-image-lightbox": "^5.1.1",
     "react-scripts": "3.3.0",
     "reactstrap": "^8.2.0",
+    "redux": "^4.0.5",
     "simple-react-lightbox": "^2.0.5"
   },
   "scripts": {

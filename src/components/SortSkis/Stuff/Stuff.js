@@ -14,7 +14,7 @@ const Stuff = ({data, sortBy}) =>
 
          (
             <div>
-                <Button onClick={() => sortBy('length')}>Kaszanka</Button>
+                <Button onClick={() => sortBy('length')}>długość</Button>
                 <div className="row">
                     {
                         data.map ( row => (
@@ -24,7 +24,10 @@ const Stuff = ({data, sortBy}) =>
                                     {/* <a href={this.props.myPhoto} data-lightbox="roadtrip"><img src="{ require ({this.props.myMiniPhoto})}" className="rounded img-fluid skis-image" /></a> */}
                                     <div className="p-2">
                                         <p><b>Model: </b>{row.model}</p>            
-                                        <p><b>Długość: </b>{row.length}cm</p>    
+                                        <p><b>Długość: </b>{row.length} cm</p>    
+                                        <p><b>Promień: </b>R{row.radius}</p>    
+                                        <p><b>Stan ślizgu: </b>{row.condition}</p>  
+                                        <p class="btn btn-outline-primary"><b>Cena: </b>{row.price} zł</p>  
                                     </div>
                                 </div>  
                             </div>
