@@ -5,28 +5,22 @@ $bgThird: #192e5b;
 $colorPrimary: #00743f !important;
 $colorSecond: #f2a104;
 
-
-
 /*--------------------Font sizes--------------------*/
-$textSmall: .6em;
-$textMedium: .8em;
+$textSmall: 0.6em;
+$textMedium: 0.8em;
 $textBig: 1.5em;
 
-
-
 /*--------------------Header--------------------*/
-#intro{
+#intro {
   height: calc(100vh - 86px);
   background-image: url(images/bg.jpg);
   background-position: center;
   background-size: cover;
 }
-#intro-text{
+#intro-text {
   background: hsla(0, 0%, 0%, 0.6);
-  padding: 15px;
   color: white;
 }
-#intro-text_ctn{
+#intro-text_ctn {
   max-width: 1000px;
 }
-

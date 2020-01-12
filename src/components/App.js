@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./Header/Header";
 import Navigation from "./Navigation/Navigation";
-import SortSkis from "./SortSkis/SortSkis";
+import Sort from "./Sort/Sort";
 // . -curent directory
 // .. -parent directory
 
@@ -17,7 +17,7 @@ function App() {
       <h4 class="skis-heading text-center" id="skis">
         Sortuj według
       </h4>
-      <SortSkis />
+      <Sort />
     </body>
   );
 }
