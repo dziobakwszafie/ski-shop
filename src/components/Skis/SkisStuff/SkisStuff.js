@@ -1,18 +1,10 @@
 import React, { Component } from "react";
 import "./styles.css";
 import { Button, Container, Row, Col } from "reactstrap";
-import ModalBuy from "../ModalBuy/ModalBuy";
+import ModalBuy from "../../ModalBuy/ModalBuy";
 import skis1 from "./images/big/skis1.jpg";
 
-// class Stuff extends Component {
-const Stuff = ({ data, sortBy }) => (
-  // tu bylo cos na temat tego ze nie trzeba dawac render bo funkcja sama w sobie ma render jak ie jej uzywa zamiast clasy reactowej
-  // dodatkowo od razu zamiast pisac props mozna wpisac argumenty
-  //class Stuff extends Component {
-  //   render() {
-
-  //const {data, sortBy} = props;
-
+const SkisStuff = ({ data, sortBy }) => (
   <Container>
     <Button onClick={() => sortBy("length")}>długość</Button>
     <Button onClick={() => sortBy("price")}>cena</Button>
@@ -52,13 +44,4 @@ const Stuff = ({ data, sortBy }) => (
   </Container>
 );
 
-//}
-// zainstaluj prettier i beutify
-export default Stuff; //https://www.youtube.com/watch?v=akxsFgM7DPA
-
-// <Sort>
-// <Modal>
-// <Lightbox>
-
-// index
-//   <Skis>
+export default SkisStuff;
