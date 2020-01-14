@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./styles.css";
-import data from "../../skis-table.json";
 import SkisStuff from "../Skis/SkisStuff/SkisStuff";
 
 // przerób na kontener
@@ -9,15 +8,10 @@ import SkisStuff from "../Skis/SkisStuff/SkisStuff";
 //zmien import w app.js
 
 class Sort extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data
-    };
-    this.sortBy = this.sortBy.bind(this);
-  }
-  sortBy(key) {
-    const sorted = this.state.data.sort((a, b) => {
+  sortBy = key => {
+    const { data } = this.props;
+
+    const sorted = data.sort((a, b) => {
       if (a[key] === b[key]) {
         return 0;
       }
@@ -26,19 +20,14 @@ class Sort extends Component {
     this.setState({
       data: sorted
     });
-  }
+  };
+
   render() {
-    return <SkisStuff data={this.state.data} sortBy={this.sortBy} />;
+    const { data } = this.props;
+    return <SkisStuff data={data} sortBy={this.sortBy} />;
   }
 }
 
-// const mapStateToProps = state => {
-//   return {
-//     data: state.data
-//   };
-// };
-
-// export default connect(mapStateToProps)(Sort);
 export default Sort;
 
 //1. ogarnac map state to props

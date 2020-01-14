@@ -30,7 +30,7 @@ const SkisStuff = ({ data, sortBy }) => (
                 <b>Stan ślizgu: </b>
                 {row.condition}
               </p>
-              <ModalB />
+              <ModalB model={row.model} />
             </div>
           </div>
         </div>
