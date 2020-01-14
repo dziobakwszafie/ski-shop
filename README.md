@@ -16,8 +16,8 @@ Than i decided to learn Bootstrap while bulding it. Now it has to be a fully wor
 ### Second version (reactDev branch) uses: 
 
 - [React](https://reactjs.org/)
-- [Bootstrap 4](https://getbootstrap.com/)
-- ... aaaaand some more but don't know already
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [Redux](https://redux.js.org/)
 
 
 ## Current Status
