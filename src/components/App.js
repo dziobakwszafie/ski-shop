@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header/Header";
 import Navigation from "./Navigation/Navigation";
 import Sort from "./Sort/Sort";
+import { connect } from "react-redux";
 // . -curent directory
 // .. -parent directory
 

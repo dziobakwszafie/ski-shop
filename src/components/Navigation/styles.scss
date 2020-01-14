@@ -5,24 +5,11 @@ $bgThird: #192e5b;
 $colorPrimary: #00743f !important;
 $colorSecond: #f2a104;
 
-
-
 /*--------------------Font sizes--------------------*/
-$textSmall: .6em;
-$textMedium: .8em;
+$textSmall: 0.6em;
+$textMedium: 0.8em;
 $textBig: 1.5em;
 
-
-/*--------------------Navigation-------------------*/
-nav{
-  background-color: $bgThird;
+.navbar {
+  height: 100px !important;
 }
-.navbar-brand{
-  color: $bgPrimary !important;
-  font-size: 2.5em;
-}
-.nav-link{
-  color: $bgPrimary !important;
-  font-size: 1.25em;
-}
-

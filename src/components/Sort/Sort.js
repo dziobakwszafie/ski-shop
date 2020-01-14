@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styles.css";
-import data from "../Skis/SkisStuff/skis-table.json";
+import data from "../../skis-table.json";
 import SkisStuff from "../Skis/SkisStuff/SkisStuff";
 
 // przerób na kontener
@@ -32,4 +32,18 @@ class Sort extends Component {
   }
 }
 
+// const mapStateToProps = state => {
+//   return {
+//     data: state.data
+//   };
+// };
+
+// export default connect(mapStateToProps)(Sort);
 export default Sort;
+
+//1. ogarnac map state to props
+//2. ogarnac jak wrzucac info z jsona do modulara
+//3. ogarnąć wygląd
+//4. ustalić czy używam reactstrapa czy bootstrapreact
+//5. ogarnac wysyłanie maili z modulara
+//6. pierdolona galeria
