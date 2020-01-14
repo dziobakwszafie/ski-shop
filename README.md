@@ -18,6 +18,7 @@ Than i decided to learn Bootstrap while bulding it. Now it has to be a fully wor
 - [React](https://reactjs.org/)
 - [React-Bootstrap](https://react-bootstrap.github.io/)
 - [Redux](https://redux.js.org/)
+- [styled-components](https://styled-components.com/) 
 
 
 ## Current Status
