@@ -4,10 +4,7 @@ import {
   Container,
   Button,
   Modal,
-  ModalHeader,
-  ModalBody,
-  ModalFooter
-} from "reactstrap";
+} from "react-bootstrap";
 
 class ModalBuy extends Component {
   state = {
@@ -27,14 +24,14 @@ class ModalBuy extends Component {
         </Button>
 
         <Modal
-          isOpen={this.state.modalIsOpen}
+          size="lg"
           aria-labelledby="contained-modal-title-vcenter"
           centered
         >
-          <ModalHeader toggle={this.toggleModal.bind(this)}>
+          <Modal.Header toggle={this.toggleModal.bind(this)}>
             Skontaktuj się ze mną jak ci wygodniej!
-          </ModalHeader>
-          <ModalBody>
+          </Modal.Header>
+          <Modal.Body>
             <h4>Telefon</h4>
             <h4>Whatsapp</h4>
             <h4>Mail</h4>
@@ -45,15 +42,14 @@ class ModalBuy extends Component {
             <Button color="primary" onClick={this.toggleModal.bind(this)}>
               Wyślij
             </Button>
-          </ModalBody>
-          <ModalFooter>
+          </Modal.Body>
+          <Modal.Footer>
             <Button onClick={this.toggleModal.bind(this)}>Zamknij</Button>
-          </ModalFooter>
+          </Modal.Footer>
         </Modal>
       </Container>
 
-      // https://react-bootstrap.github.io/components/modal/
-      // https://react-bootstrap.github.io/getting-started/introduction/
+
     );
   }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles.css";
-import { Button, Container, Row, Col } from "reactstrap";
-import ModalBuy from "../../ModalBuy/ModalBuy";
+import { Button, Container, Row } from "react-bootstrap";
+import ModalB from "../../ModalBuy/ModalB";
 import skis1 from "./images/big/skis1.jpg";
 
 const SkisStuff = ({ data, sortBy }) => (
@@ -30,12 +30,7 @@ const SkisStuff = ({ data, sortBy }) => (
                 <b>Stan ślizgu: </b>
                 {row.condition}
               </p>
-              <ModalBuy>
-                <p class="btn btn-outline-primary">
-                  <b>Cena: </b>
-                  {row.price} zł
-                </p>
-              </ModalBuy>
+              <ModalB />
             </div>
           </div>
         </div>

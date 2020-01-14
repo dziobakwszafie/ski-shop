@@ -43,7 +43,5 @@ export default Sort;
 
 //1. ogarnac map state to props
 //2. ogarnac jak wrzucac info z jsona do modulara
-//3. ogarnąć wygląd
-//4. ustalić czy używam reactstrapa czy bootstrapreact
 //5. ogarnac wysyłanie maili z modulara
 //6. pierdolona galeria
