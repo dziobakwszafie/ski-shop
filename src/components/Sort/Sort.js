@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styles.css";
-import SkisStuff from "../Skis/SkisStuff/SkisStuff";
+import SkisStuff from "../Skis/Skis";
 
 // przerób na kontener
 //dodaj index.js - zrób tam mapstatetoprops

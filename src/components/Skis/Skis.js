@@ -1,13 +1,27 @@
 import React, { Component } from "react";
 import "./styles.css";
 import { Button, Container, Row } from "react-bootstrap";
-import ModalB from "../../ModalBuy/ModalB";
+import ModalB from "../ModalBuy/ModalB";
 import skis1 from "./images/big/skis1.jpg";
+import styled from "styled-components";
+
+const Styles = styled.text`
+  h4 {
+    font-family: "Roboto", sans-serif;
+  }
+`;
 
 const SkisStuff = ({ data, sortBy }) => (
   <Container>
-    <Button onClick={() => sortBy("length")}>długość</Button>
-    <Button onClick={() => sortBy("price")}>cena</Button>
+    <Container className="p-0 d-flex justify-content-center align-items-center">
+      <h5 className="mx-4 mt-3">sortuj według:</h5>
+      <Button className="mx-4 mt-3" onClick={() => sortBy("length")}>
+        długość
+      </Button>
+      <Button className="mx-4 mt-3 " onClick={() => sortBy("price")}>
+        cena
+      </Button>
+    </Container>
 
     <Row>
       {data.map(row => (

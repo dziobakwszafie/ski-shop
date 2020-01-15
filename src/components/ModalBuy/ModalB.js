@@ -24,7 +24,9 @@ function MyVerticallyCenteredModal(props) {
         </p>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button variant="secondary" onClick={props.onHide}>
+          Close
+        </Button>
       </Modal.Footer>
     </Modal>
   );
@@ -34,7 +36,7 @@ function App(props) {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <ButtonToolbar>
-      <Button variant="primary" onClick={() => setModalShow(true)}>
+      <Button variant="info" onClick={() => setModalShow(true)}>
         Launch vertically centered modal
       </Button>
 

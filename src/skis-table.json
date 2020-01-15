@@ -1,47 +1,164 @@
 [
-    {
-        "photo": "./Sort/Stuff/images/big/skis1.jpg",
-        "miniPhoto": "./Sort/Stuff/images/mini/skis1.jpg",
-        "model": "Voelkl Racetiger GS UVO",
-        "length": "175",
-        "radius": "17,9",
-        "condition": "dobry",
-        "price": "580"
-    },
-    {
-        "photo": "./Sort/Stuff/images/big/skis2.jpg",
-        "miniPhoto": "./Sort/Stuff/images/mini/skis2.jpg",
-        "model": "Voelkl Racetiger GS UVO",
-        "length": "175",
-        "radius": "17,9",
-        "condition": "dobry",
-        "price": "650"
-    },
-    {
-        "photo": "./Sort/Stuff/images/big/skis3.jpg",
-        "miniPhoto": "./Sort/Stuff/images/mini/skis3.jpg",
-        "model": "Voelkl Racetiger GS UVO",
-        "length": "175",
-        "radius": "17,9",
-        "condition": "dobry",
-        "price": "700"
-    },
-    {
-        "photo": "./Sort/Stuff/images/big/skis4.jpg",
-        "miniPhoto": "./Sort/Stuff/images/mini/skis4.jpg",
-        "model": "Dynastar Speedcourse Ti",
-        "length": "177",
-        "radius": "16",
-        "condition": "dobry",
-        "price": "450"
-    },
-    {
-        "photo": "./Sort/Stuff/images/big/skis5.jpg",
-        "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
-        "model": "Atomic Affinity",
-        "length": "158",
-        "radius": "13,5",
-        "condition": "bardzo dobry",
-        "price": "500"
-    }
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Scott The Ski",
+    "length": "165",
+    "radius": "-",
+    "condition": "bardzo dobry",
+    "price": "420"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Salomon BBR",
+    "length": "176",
+    "radius": "12,5",
+    "condition": "bardzo dobry",
+    "price": "350"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis1.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis1.jpg",
+    "model": "Voelkl Racetiger GS UVO",
+    "length": "175",
+    "radius": "17,9",
+    "condition": "dobry",
+    "price": "580"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis2.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis2.jpg",
+    "model": "Voelkl Racetiger GS UVO",
+    "length": "175",
+    "radius": "17,9",
+    "condition": "dobry",
+    "price": "680"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis4.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis4.jpg",
+    "model": "Dynastar Speedcourse Ti",
+    "length": "177",
+    "radius": "16",
+    "condition": "bardzo dobry",
+    "price": "450"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Head Mojo 80",
+    "length": "175",
+    "radius": "-",
+    "condition": "dobry",
+    "price": "150"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Fischer Koa 80",
+    "length": "154",
+    "radius": "14",
+    "condition": "bardzo dobry",
+    "price": "360"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis1.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis1.jpg",
+    "model": "Voelkl Racetiger GS UVO",
+    "length": "175",
+    "radius": "17,9",
+    "condition": "bardzo dobry",
+    "price": "750"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Nordica Dobermann Spitfire Ti",
+    "length": "168",
+    "radius": "14",
+    "condition": " dobry",
+    "price": "420"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Fischer Progressor",
+    "length": "170",
+    "radius": "14",
+    "condition": "bardzo dobry",
+    "price": "430"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Atomic Affinity",
+    "length": "158",
+    "radius": "13,5",
+    "condition": "idealny",
+    "price": "500"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Atomic XT Premium",
+    "length": "170",
+    "radius": "14",
+    "condition": "bardzo dobry",
+    "price": "590"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Fischer RC4 Superior ",
+    "length": "175",
+    "radius": "17",
+    "condition": "bardzo dobry",
+    "price": "450"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Atomic Nomad",
+    "length": "178",
+    "radius": "15,1",
+    "condition": "bardzo dobry",
+    "price": "450"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Volkl Racetiger GS Junior",
+    "length": "140",
+    "radius": "-",
+    "condition": "bardzo dobry",
+    "price": "480"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Tecno XT Race Junior",
+    "length": "130",
+    "radius": "-",
+    "condition": " dobry",
+    "price": "280"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "K2 Indy ",
+    "length": "100",
+    "radius": "-",
+    "condition": " dobry",
+    "price": "180"
+  },
+  {
+    "photo": "./Sort/Stuff/images/big/skis5.jpg",
+    "miniPhoto": "./Sort/Stuff/images/mini/skis5.jpg",
+    "model": "Fischer RC4 WorldCup ",
+    "length": "166",
+    "radius": "14",
+    "condition": "średni",
+    "price": "250"
+  }
 ]
