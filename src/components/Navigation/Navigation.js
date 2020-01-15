@@ -27,7 +27,7 @@ class Navigation extends PureComponent {
           </Bar>
           <Container className="justify-content-end">
             <Nav.Link href="#skis">Narty</Nav.Link>
-            <Nav.Link href="#contact">Kontakt</Nav.Link>
+            <Nav.Link href="#footer">Kontakt</Nav.Link>
           </Container>
         </Navbar>
       </Styles>

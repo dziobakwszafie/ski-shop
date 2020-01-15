@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 import Navigation from "./Navigation/Navigation";
 import Sort from "./Sort";
 import Title from "./Title/Title";
-//import Lightbox from "react-image-lightbox";
+import Footer from "./Footer/Footer";
 // . -curent directory
 // .. -parent directory
 
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Title />
       <Sort />
-      {/* <Lightbox /> */}
+      <Footer />
     </React.Fragment>
   );
 }

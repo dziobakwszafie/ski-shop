@@ -37,7 +37,7 @@ function App(props) {
   return (
     <ButtonToolbar>
       <Button variant="info" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
+        cena: {props.price} zł
       </Button>
 
       <MyVerticallyCenteredModal
