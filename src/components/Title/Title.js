@@ -11,7 +11,7 @@ const Styles = styled.text`
   a.anchor {
     display: block;
     position: relative;
-    top: -220px;
+    top: -215px;
     visibility: hidden;
   }
 `;

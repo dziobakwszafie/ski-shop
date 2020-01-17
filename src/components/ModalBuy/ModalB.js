@@ -35,7 +35,12 @@ function App(props) {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <ButtonToolbar>
-      <Button variant="info" onClick={() => setModalShow(true)}>
+      <Button
+        variant="success"
+        onClick={() => setModalShow(true)}
+        size="md"
+        block
+      >
         cena: {props.price} zł
       </Button>
 

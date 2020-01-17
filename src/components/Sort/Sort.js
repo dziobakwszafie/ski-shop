@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SkisStuff from "../Skis/Skis";
+import Skis from "../Skis/Skis";
 
 // przerób na kontener
 //dodaj index.js - zrób tam mapstatetoprops
@@ -23,13 +23,8 @@ class Sort extends Component {
 
   render() {
     const { data } = this.props;
-    return <SkisStuff data={data} sortBy={this.sortBy} />;
+    return <Skis data={data} sortBy={this.sortBy} />;
   }
 }
 
 export default Sort;
-
-//1. ogarnac map state to props
-//2. ogarnac jak wrzucac info z jsona do modulara
-//5. ogarnac wysyłanie maili z modulara
-//6. pierdolona galeria

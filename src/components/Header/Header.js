@@ -72,17 +72,12 @@ class Header extends PureComponent {
                 </div>
                 <Row className="d-flex align-items-center justify-content-center">
                   <a href="#skis">
-                    <Button type="button" className="btn btn-info mx-3">
+                    <Button type="button" className="btn mx-3" variant="primary">
                       Narty
                     </Button>
                   </a>
-                  <a href="#boots">
-                    <Button type="button" className="btn btn-info mx-3">
-                      Buty
-                    </Button>
-                  </a>
                   <a href="#footer">
-                    <Button type="button" className="btn btn-light mx-3">
+                    <Button type="button" className="btn mx-3" variant="light">
                       Kontakt
                     </Button>
                   </a>

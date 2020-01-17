@@ -1,70 +1,84 @@
 import React, { PureComponent } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
+import whatsappIcon from "./whatsapp.png";
+import phoneIcon from "./phone.png";
 
-const Styles = styled.div`
-  #line {
-    width: 100px;
-    height: 5px;
-    color: black;
+const ImgStyles = styled.div`
+  #whatsappIcon {
+    height: 80px;
+    width: auto;
+  }
+  #phoneIcon {
+    height: 60px;
+    width: auto;
+  }
+`;
+const Styles = styled.text`
+  h3 {
+    font-family: "Sacramento", cursive;
+    font-size: 50px;
+  }
+  p {
+    font-family: "Roboto", sans-serif;
   }
 `;
 
 class Footer extends PureComponent {
   render() {
     return (
-      <Styles>
-        <Container id="footer">
-          <Container className="d-flex align-items-center justify-content-center">
-            <Col className="col-xs-12">
-              <Row className="d-flex align-items-center justify-content-center">
-                <h3>Kontakt</h3>
-              </Row>
-              <Row className="d-flex justify-content-center">
-                <div id="line"></div>
-              </Row>
-              <Row className="row">
-                <Col>
+      <Container className="mt-5" id="footer">
+        <Styles>
+          <Col>
+            <Row className="d-flex justify-content-center align-items-center">
+              <h3>Kontakt</h3>
+            </Row>
+            <Row className="mb-2 d-flex justify-content-center align-items-center">
+              <Col xs={2} className="d-flex justify-content-end">
+                <ImgStyles>
                   <a href="https://wa.me/48534799219">
-                    <img src="img/whatsapp.png" id="icon" />
+                    <img src={whatsappIcon} id="whatsappIcon" />
                   </a>
-                </Col>
-                <Col>
+                </ImgStyles>
+              </Col>
+              <Col xs={2}>
+                <ImgStyles>
                   <a href="tel:534799219">
-                    <img src="img/phone.png" id="icon2" />
+                    <img src={phoneIcon} id="phoneIcon" />
                   </a>
-                </Col>
-                <Col className="d-flex align-items-center justify-content-center pl-2">
-                  <p>
-                    <b>534-799-219</b>
-                  </p>
-                </Col>
-                <Col className="d-flex align-items-center justify-content-center pl-4">
-                  <p>
-                    <b>nieudomowiony.sledz@gmail.com</b>
-                  </p>
-                </Col>
-              </Row>
-              <Row>
-                <p>copy dziobakwszafie 2019 - </p>
-                <p>
-                  Icon made by
-                  <a
-                    href="https://www.flaticon.com/authors/freepik"
-                    title="Freepik"
-                  >
-                    Freepik
-                  </a>
-                  from
-                  <a href="https://www.flaticon.com/" title="Flaticon">
-                    www.flaticon.com
-                  </a>
-                </p>
-              </Row>
-            </Col>
-          </Container>
-        </Container>
-      </Styles>
+                </ImgStyles>
+              </Col>
+            </Row>
+            <Row className="d-flex justify-content-center align-items-center">
+              <p>
+                <b>nieudomowiony.sledz@gmail.com</b>
+              </p>
+            </Row>
+            <Row className="d-flex justify-content-center align-items-center">
+              <p>
+                <b>534-799-219</b>
+              </p>
+            </Row>
+
+            <Row className=" p-0 d-flex justify-content-center align-items-center">
+              <p>
+                <b>dziobakwszafie 2019 </b>
+                <b>Icon made by </b>
+                <a
+                  href="https://www.flaticon.com/authors/freepik"
+                  title="Freepik"
+                >
+                  <b> Freepik </b>
+                </a>
+                <b>from</b>
+                <a href="https://www.flaticon.com/" title="Flaticon">
+                  <b> www.flaticon.com</b>
+                </a>
+              </p>
+            </Row>
+          </Col>
+        </Styles>
+      </Container>
     );
   }
 }
