@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./styles.css";
 import { Button, Container, Row } from "react-bootstrap";
 import ModalB from "../ModalBuy/ModalB";
 import skis1 from "./images/big/skis1.jpg";

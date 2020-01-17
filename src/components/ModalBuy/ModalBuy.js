@@ -1,10 +1,5 @@
 import React, { Component } from "react";
-import "./styles.css";
-import {
-  Container,
-  Button,
-  Modal,
-} from "react-bootstrap";
+import { Container, Button, Modal } from "react-bootstrap";
 
 class ModalBuy extends Component {
   state = {
@@ -48,8 +43,6 @@ class ModalBuy extends Component {
           </Modal.Footer>
         </Modal>
       </Container>
-
-
     );
   }
 }

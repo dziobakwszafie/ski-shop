@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./styles.css";
 import SkisStuff from "../Skis/Skis";
 
 // przerób na kontener
