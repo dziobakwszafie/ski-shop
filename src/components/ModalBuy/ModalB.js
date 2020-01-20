@@ -1,5 +1,16 @@
 import React, { Component } from "react";
 import { Button, Modal, ButtonToolbar } from "react-bootstrap";
+import Contact from "../Contact/Contact";
+import styled from "styled-components";
+
+const Styles = styled.text`
+  div {
+    background: black;
+    height: 2px;
+    width: 80%;
+    margin: 10%;
+  }
+`;
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -11,16 +22,26 @@ function MyVerticallyCenteredModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          <h4>
+            {props.model} {props.length} cm
+          </h4>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>{props.model}</h4>
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          <b>
+            Cześć, jeśli jesteś zainteresowany kupnem to skontaktuj się ze mną
+            poprzez jedną z wybranych opcji w celu sprawdzenia dostępności i
+            ustalenia szczegółów.
+          </b>
         </p>
+        <p>
+          <b>Możliwy jest zarówno odbiór osobisty jak i wysyłka.</b>
+        </p>
+        <Styles>
+          <div></div>
+        </Styles>
+        <Contact />
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={props.onHide}>
