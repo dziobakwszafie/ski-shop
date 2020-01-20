@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import ModalB from "../ModalBuy/ModalB";
-import skis1 from "./images/big/skis1.jpg";
+import skis1 from "./images/skis1.jpg";
 import styled from "styled-components";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const Styles = styled.text`
   h4 {
@@ -39,7 +41,9 @@ const Skis = ({ data, sortBy }) => (
           <Col xs={12} md={6} lg={4} xl={3}>
             <Row className="m-2">
               <Col className="p-2">
-                <img src={skis1} style={{ width: "100%", opacity: "0.5" }} />
+                <Zoom>
+                  <img src={} width="100%" />
+                </Zoom>
                 <p>
                   <b>Model: </b>
                   {row.model}

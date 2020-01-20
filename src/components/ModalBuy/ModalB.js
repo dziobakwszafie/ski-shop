@@ -45,14 +45,14 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={props.onHide}>
-          Close
+          Zamknij
         </Button>
       </Modal.Footer>
     </Modal>
   );
 }
 
-function App(props) {
+function ModalB(props) {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <ButtonToolbar>
@@ -74,4 +74,4 @@ function App(props) {
   );
 }
 
-export default App;
+export default ModalB;
