@@ -11,7 +11,6 @@ const ImgStyles = styled.div`
     width: auto;
   }
   #phoneIcon {
-    padding-left: 5px;
     height: 60px;
     width: auto;
   }
@@ -49,7 +48,7 @@ class Footer extends PureComponent {
                   </a>
                 </ImgStyles>
               </Col>
-              <Col xs={2}>
+              <Col xs={2} className="d-flex justify-content-center">
                 <ImgStyles>
                   <a href="sms:534799219&body=model">
                     <img src={smsIcon} id="phoneIcon" />
@@ -57,7 +56,7 @@ class Footer extends PureComponent {
                   </a>
                 </ImgStyles>
               </Col>
-              <Col xs={2}>
+              <Col xs={2} className="d-flex justify-content-center">
                 <ImgStyles>
                   <a href="sms:534799219?body=model">
                     <img src={smsIcon} id="phoneIcon" />
@@ -65,7 +64,7 @@ class Footer extends PureComponent {
                   </a>
                 </ImgStyles>
               </Col>
-              <Col xs={2}>
+              <Col xs={2} className="d-flex justify-content-start">
                 <ImgStyles>
                   <a href="tel:534799219">
                     <img src={phoneIcon} id="phoneIcon" />
