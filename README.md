@@ -2,7 +2,7 @@
 
 Project of ski shop. 
 At the beginning it was supposed to be a simple website with a few skis which i haven't used anymore. 
-Than i decided to learn Bootstrap while bulding it. Now it has to be a fully working online store made with React. 
+Than i decided to learn Bootstrap while bulding it. Now it will be a fully working online store made with React. I hope so :P  
 
 ## Built With
 
