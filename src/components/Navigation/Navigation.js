@@ -14,6 +14,14 @@ const Bar = styled.text`
     font-size: 60px !important;
   }
 `;
+const Navlinks = styled.p`
+  #black {
+    color: white;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+`;
 
 class Navigation extends PureComponent {
   render() {
@@ -26,8 +34,14 @@ class Navigation extends PureComponent {
             </Navbar.Brand>
           </Bar>
           <Container className="justify-content-end">
-            <Nav.Link href="#skis">Narty</Nav.Link>
-            <Nav.Link href="#footer">Kontakt</Nav.Link>
+            <Navlinks>
+              <Nav.Link href="#skis" id="black">
+                Narty
+              </Nav.Link>
+              <Nav.Link href="#footer" id="black">
+                Kontakt
+              </Nav.Link>
+            </Navlinks>
           </Container>
         </Navbar>
       </Styles>

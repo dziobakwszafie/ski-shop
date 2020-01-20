@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import Skis from "../Skis/Skis";
 
-// przerób na kontener
-//dodaj index.js - zrób tam mapstatetoprops
-// w skis zrób iteracja po pętli - funkcja map
-//zmien import w app.js
-
 class Sort extends Component {
   sortBy = key => {
     const { data } = this.props;
