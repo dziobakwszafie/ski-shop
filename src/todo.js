@@ -4,3 +4,4 @@
 //4. ****** Lightbox
 //5. ostylować nav.linki
 //6. ogarnać modulara
+//7. zrobic wyszukiwanie po nazwie

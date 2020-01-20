@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import whatsappIcon from "./whatsapp.png";
 import phoneIcon from "./phone.png";
+import smsIcon from "./sms.png";
 
 const ImgStyles = styled.div`
   #whatsappIcon {
@@ -10,8 +11,15 @@ const ImgStyles = styled.div`
     width: auto;
   }
   #phoneIcon {
+    padding-left: 5px;
     height: 60px;
     width: auto;
+  }
+  b {
+    color: black;
+    padding-top: 3px;
+    justify-content: center;
+    display: flex;
   }
 `;
 const Styles = styled.text`
@@ -38,6 +46,22 @@ class Footer extends PureComponent {
                 <ImgStyles>
                   <a href="https://wa.me/48534799219">
                     <img src={whatsappIcon} id="whatsappIcon" />
+                  </a>
+                </ImgStyles>
+              </Col>
+              <Col xs={2}>
+                <ImgStyles>
+                  <a href="sms:534799219&body=model">
+                    <img src={smsIcon} id="phoneIcon" />
+                    <b>iOS</b>
+                  </a>
+                </ImgStyles>
+              </Col>
+              <Col xs={2}>
+                <ImgStyles>
+                  <a href="sms:534799219?body=model">
+                    <img src={smsIcon} id="phoneIcon" />
+                    <b>Android</b>
                   </a>
                 </ImgStyles>
               </Col>
