@@ -20,6 +20,7 @@ const Navlinks = styled.p`
     display: inline-block;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
+    margin-top: 10px;
   }
 `;
 

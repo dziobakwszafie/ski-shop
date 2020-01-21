@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import ModalB from "../ModalBuy/ModalB";
-import skis1 from "./images/skis1.jpg";
 import styled from "styled-components";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
@@ -42,8 +41,9 @@ const Skis = ({ data, sortBy }) => (
             <Row className="m-2">
               <Col className="p-2">
                 <Zoom>
-                  <img src={} width="100%" />
+                  <img src={row.photo} width="100%" />
                 </Zoom>
+                {/* If you used create-react-app to create your project then your public folder is accessible. So you need to add your image folder inside the public folder. */}
                 <p>
                   <b>Model: </b>
                   {row.model}
