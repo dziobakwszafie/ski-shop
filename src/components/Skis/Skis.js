@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import ModalB from "../ModalBuy/ModalB";
 import styled from "styled-components";
@@ -13,6 +13,8 @@ const Styles = styled.text`
     margin-bottom: 5px;
   }
 `;
+
+const iconPath = process.env.PUBLIC_URL + "/images/";
 
 const Skis = ({ data, sortBy }) => (
   <Container>
@@ -41,7 +43,7 @@ const Skis = ({ data, sortBy }) => (
             <Row className="m-2">
               <Col className="p-2">
                 <Zoom>
-                  <img src={row.photo} width="100%" />
+                  <img src={`${iconPath}${row.photo}`} width="100%" />
                 </Zoom>
                 {/* If you used create-react-app to create your project then your public folder is accessible. So you need to add your image folder inside the public folder. */}
                 <p>
