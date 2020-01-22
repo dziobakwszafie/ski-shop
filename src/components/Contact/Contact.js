@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import whatsappIcon from "./whatsapp.png";
@@ -29,22 +29,26 @@ function Contact(props) {
         <Col xs={3} sm={2} className="d-flex justify-content-end">
           <ImgStyles>
             <a href="https://wa.me/48534799219">
-              <img src={whatsappIcon} id="whatsappIcon" />
+              <img src={whatsappIcon} id="whatsappIcon" alt="whatsapp icon" />
             </a>
           </ImgStyles>
         </Col>
         <Col xs={3} sm={2} className="d-flex justify-content-center">
           <ImgStyles>
-            <a href="sms:534799219&body=Cześć, interesują mnie narty.">
-              <img src={smsIcon} id="phoneIcon" />
+            <a href="sms:534799219&body=Cześć, jestem zainteresowany nartami, proszę o kontakt.">
+              <img src={smsIcon} id="phoneIcon" alt="Send sms with iOS icon" />
               <b>iOS</b>
             </a>
           </ImgStyles>
         </Col>
         <Col xs={3} sm={2} className="d-flex justify-content-center">
           <ImgStyles>
-            <a href="sms:534799219?body=Cześć, interesują mnie narty.">
-              <img src={smsIcon} id="phoneIcon" />
+            <a href="sms:534799219?body=Cześć, jestem zainteresowany nartami, proszę o kontakt.">
+              <img
+                src={smsIcon}
+                id="phoneIcon"
+                alt="Send sms with android icon"
+              />
               <b>Android</b>
             </a>
           </ImgStyles>
@@ -52,7 +56,7 @@ function Contact(props) {
         <Col xs={3} sm={2} className="d-flex justify-content-start">
           <ImgStyles>
             <a href="tel:534799219">
-              <img src={phoneIcon} id="phoneIcon" />
+              <img src={phoneIcon} id="phoneIcon" alt="Make a call icon" />
             </a>
           </ImgStyles>
         </Col>

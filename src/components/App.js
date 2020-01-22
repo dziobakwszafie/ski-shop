@@ -5,8 +5,6 @@ import Navigation from "./Navigation/Navigation";
 import Sort from "./Sort";
 import Title from "./Title/Title";
 import Footer from "./Footer/Footer";
-// . -curent directory
-// .. -parent directory
 
 function App() {
   return (

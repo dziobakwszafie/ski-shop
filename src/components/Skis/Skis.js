@@ -34,6 +34,13 @@ const Skis = ({ data, sortBy }) => (
       >
         cena
       </Button>
+      <Button
+        className="mx-4 mt-3 "
+        variant="warning"
+        onClick={() => sortBy("price")}
+      >
+        delete
+      </Button>
     </Container>
 
     <Styles>
@@ -43,7 +50,11 @@ const Skis = ({ data, sortBy }) => (
             <Row className="m-2">
               <Col className="p-2">
                 <Zoom>
-                  <img src={`${iconPath}${row.photo}`} width="100%" />
+                  <img
+                    src={`${iconPath}${row.photo}`}
+                    alt="Skis"
+                    width="100%"
+                  />
                 </Zoom>
                 {/* If you used create-react-app to create your project then your public folder is accessible. So you need to add your image folder inside the public folder. */}
                 <p>

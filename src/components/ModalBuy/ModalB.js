@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Button, Modal, ButtonToolbar } from "react-bootstrap";
 import Contact from "../Contact/Contact";
 import styled from "styled-components";

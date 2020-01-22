@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import { Container, Button, Row, Col } from "react-bootstrap";
+import { Container, Button, Row } from "react-bootstrap";
 import styled from "styled-components";
 import bgPhoto from "./images/bg.jpg";
 
@@ -72,7 +72,11 @@ class Header extends PureComponent {
                 </div>
                 <Row className="d-flex align-items-center justify-content-center">
                   <a href="#skis">
-                    <Button type="button" className="btn mx-3" variant="primary">
+                    <Button
+                      type="button"
+                      className="btn mx-3"
+                      variant="primary"
+                    >
                       Narty
                     </Button>
                   </a>

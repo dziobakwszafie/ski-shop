@@ -13,8 +13,8 @@ const mapStateToProps = state => {
 
 const mapDispathToProps = dispatch => {
   return {
-    deletePost: id => {
-      dispatch({ type: "DELETE_POST", id: id });
+    deleteModel: id => {
+      dispatch({ type: "DELETE_MODEL", id: id });
     }
   };
 };

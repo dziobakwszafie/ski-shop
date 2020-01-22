@@ -10,12 +10,6 @@ import rootReducer from "./reducers/reducer";
 
 const store = createStore(rootReducer);
 
-// ReactDOM.render(
-
-//   <App />,
-
-//   document.getElementById("root")
-// );
 serviceWorker.unregister();
 
 ReactDOM.render(
@@ -24,4 +18,4 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
-// serviceWorker.unregister();
+
