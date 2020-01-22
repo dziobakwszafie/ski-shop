@@ -14,6 +14,8 @@ const Styles = styled.text`
   }
 `;
 
+const iconPath = process.env.PUBLIC_URL + "/images/";
+
 const Skis = ({ data, sortBy }) => (
   <Container>
     <Container className="p-0 mb-3 d-flex justify-content-center align-items-center">
@@ -41,7 +43,7 @@ const Skis = ({ data, sortBy }) => (
             <Row className="m-2">
               <Col className="p-2">
                 <Zoom>
-                  <img src={row.photo} width="100%" />
+                  <img src={`${iconPath}${row.photo}`} width="100%" />
                 </Zoom>
                 {/* If you used create-react-app to create your project then your public folder is accessible. So you need to add your image folder inside the public folder. */}
                 <p>
