@@ -11,4 +11,11 @@ const mapStateToProps = state => {
 //   getSkis: getSkisAction()
 // };
 
-export default connect(mapStateToProps)(Sort);
+const mapDispathToProps = dispatch => {
+  return {
+    deletePost: id => {
+      dispatch({ type: "DELETE_POST", id: id });
+    }
+  };
+};
+export default connect(mapStateToProps, mapDispathToProps)(Sort);
