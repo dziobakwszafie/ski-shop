@@ -20,10 +20,7 @@ const Styles = styled.div`
     padding: 50px;
     max-height: 50vh;
   }
-  #intro-text_ctn {
-    max-width: 1000px;
-    height: 100%;
-  }
+
   h1 {
     margin-bottom: 20px;
     font-family: "Sacramento", cursive;
@@ -50,10 +47,7 @@ class Header extends PureComponent {
               id="intro-text"
               className="d-flex justify-content-center align-items-center"
             >
-              <Row
-                id="intro-text_ctn"
-                className="d-flex justify-content-center align-items-center"
-              >
+              <Row className="d-flex justify-content-center align-items-center">
                 <h1>Narciochowa strona</h1>
                 <div className="font-weight-normal text-center">
                   <p>
