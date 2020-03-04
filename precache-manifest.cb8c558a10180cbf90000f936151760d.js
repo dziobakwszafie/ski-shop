@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b739027735aa0066b842c41edf425f84",
+    "revision": "c9de9489ecfddf1e5f9a1429582af6ba",
     "url": "/ski-shop/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ski-shop/static/css/2.40ebe152.chunk.css"
   },
   {
-    "revision": "32fb1495a8f1dc60ccc4",
+    "revision": "0eabcdabcc198ef6ff52",
     "url": "/ski-shop/static/css/main.69eda509.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ski-shop/static/js/2.8456a06c.chunk.js.LICENSE"
   },
   {
-    "revision": "32fb1495a8f1dc60ccc4",
-    "url": "/ski-shop/static/js/main.1b1e00bc.chunk.js"
+    "revision": "0eabcdabcc198ef6ff52",
+    "url": "/ski-shop/static/js/main.e7e1172e.chunk.js"
   },
   {
     "revision": "dce52d2bf6f3366a0650",
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ski-shop/static/media/sms.8c3ebee5.png"
   },
   {
-    "revision": "5a50dcf6bd0cc3fba6b059026df8b256",
-    "url": "/ski-shop/static/media/whatsapp.5a50dcf6.png"
+    "revision": "c3f70146cb6fb27f821e39d32412a1da",
+    "url": "/ski-shop/static/media/whatsapp.c3f70146.png"
   }
 ]);
