@@ -2,8 +2,8 @@ import React, { PureComponent } from "react";
 import styled from "styled-components";
 
 const Styles = styled.text`
-  h1 {
-    font-family: "Sacramento", cursive;
+  h2 {
+    font-family: "Abril Fatface", cursive;
     font-size: 50px;
     padding: 10px 0;
     margin-top: 20px;
@@ -20,7 +20,7 @@ class Title extends PureComponent {
   render() {
     return (
       <Styles>
-        <h1 class="skis-heading text-center">Narty</h1>
+        <h2 class="skis-heading text-center">Narty</h2>
         <a class="anchor" id="skis"></a>
       </Styles>
     );

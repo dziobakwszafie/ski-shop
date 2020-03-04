@@ -1,5 +1,10 @@
 import React from "react";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import {
+  Button,
+  Container,
+  Row,
+  Col
+} from "react-bootstrap";
 import ModalB from "../ModalBuy/ModalB";
 import styled from "styled-components";
 import Zoom from "react-medium-image-zoom";
@@ -33,13 +38,6 @@ const Skis = ({ data, sortBy }) => (
         onClick={() => sortBy("price")}
       >
         cena
-      </Button>
-      <Button
-        className="mx-4 mt-3 "
-        variant="warning"
-        onClick={() => sortBy("price")}
-      >
-        delete
       </Button>
     </Container>
 

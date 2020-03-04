@@ -4,8 +4,8 @@ import styled from "styled-components";
 import Contact from "../Contact/Contact";
 
 const Styles = styled.text`
-  h3 {
-    font-family: "Sacramento", cursive;
+  h2 {
+    font-family: "Abril Fatface", cursive;
     font-size: 50px;
   }
   p {
@@ -20,7 +20,7 @@ class Footer extends PureComponent {
         <Styles>
           <Col>
             <Row className="d-flex justify-content-center align-items-center">
-              <h3>Kontakt</h3>
+              <h2>Kontakt</h2>
             </Row>
             <Contact />
 
@@ -35,7 +35,10 @@ class Footer extends PureComponent {
                   <b> Freepik </b>
                 </a>
                 <b>from</b>
-                <a href="https://www.flaticon.com/" title="Flaticon">
+                <a
+                  href="https://www.flaticon.com/"
+                  title="Flaticon"
+                >
                   <b> www.flaticon.com</b>
                 </a>
               </p>

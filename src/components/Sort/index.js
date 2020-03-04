@@ -18,4 +18,7 @@ const mapDispathToProps = dispatch => {
     }
   };
 };
-export default connect(mapStateToProps, mapDispathToProps)(Sort);
+export default connect(
+  mapStateToProps,
+  mapDispathToProps
+)(Sort);

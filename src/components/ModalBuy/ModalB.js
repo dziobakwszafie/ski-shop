@@ -1,5 +1,9 @@
 import React from "react";
-import { Button, Modal, ButtonToolbar } from "react-bootstrap";
+import {
+  Button,
+  Modal,
+  ButtonToolbar
+} from "react-bootstrap";
 import Contact from "../Contact/Contact";
 import styled from "styled-components";
 
@@ -30,13 +34,17 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
         <p>
           <b>
-            Cześć, jeśli jesteś zainteresowany kupnem to skontaktuj się ze mną
-            poprzez jedną z wybranych opcji w celu sprawdzenia dostępności i
-            ustalenia szczegółów.
+            Cześć, jeśli jesteś zainteresowany kupnem to
+            skontaktuj się ze mną poprzez jedną z wybranych
+            opcji w celu sprawdzenia dostępności i ustalenia
+            szczegółów.
           </b>
         </p>
         <p>
-          <b>Możliwy jest zarówno odbiór osobisty jak i wysyłka.</b>
+          <b>
+            Możliwy jest zarówno odbiór osobisty jak i
+            wysyłka.
+          </b>
         </p>
         <Styles>
           <div></div>
@@ -57,7 +65,7 @@ function ModalB(props) {
   return (
     <ButtonToolbar>
       <Button
-        variant="success"
+        variant="dark"
         onClick={() => setModalShow(true)}
         size="md"
         block

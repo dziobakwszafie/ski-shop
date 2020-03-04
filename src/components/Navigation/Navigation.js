@@ -10,7 +10,7 @@ const Styles = styled.div`
 
 const Bar = styled.text`
   #logo-text {
-    font-family: "Sacramento", cursive;
+    font-family: "Abril Fatface", cursive;
     font-size: 60px !important;
   }
 `;
@@ -30,7 +30,11 @@ class Navigation extends PureComponent {
       <Styles>
         <Navbar fixed="top" bg="dark" variant="dark">
           <Bar>
-            <Navbar.Brand className="p-0 m-0" href="#intro" id="logo-text">
+            <Navbar.Brand
+              className="p-0 m-0"
+              href="#intro"
+              id="logo-text"
+            >
               Narty
             </Navbar.Brand>
           </Bar>

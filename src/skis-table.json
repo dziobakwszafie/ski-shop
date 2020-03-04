@@ -1,21 +1,5 @@
 [
   {
-    "photo": "IMG_2676.JPG",
-    "model": "Scott The Ski",
-    "length": "165",
-    "radius": "-",
-    "condition": "bardzo dobry",
-    "price": "420"
-  },
-  {
-    "photo": "IMG_2673.JPG",
-    "model": "Salomon BBR",
-    "length": "176",
-    "radius": "12,5",
-    "condition": "bardzo dobry",
-    "price": "350"
-  },
-  {
     "photo": "Racetiger580.jpg",
     "model": "Voelkl Racetiger GS UVO",
     "length": "175",
@@ -32,6 +16,14 @@
     "price": "680"
   },
   {
+    "photo": "IMG_20191109_191818.jpg",
+    "model": "Nordica Dobermann Spitfire Ti",
+    "length": "168",
+    "radius": "14",
+    "condition": " dobry",
+    "price": "420"
+  },
+  {
     "photo": "IMG_20190925_163902.jpg",
     "model": "Dynastar Speedcourse Ti",
     "length": "177",
@@ -40,12 +32,20 @@
     "price": "450"
   },
   {
-    "photo": "IMG_20191109_193157.jpg",
-    "model": "Head Mojo 80",
-    "length": "175",
+    "photo": "IMG_2676.JPG",
+    "model": "Scott The Ski",
+    "length": "165",
     "radius": "-",
-    "condition": "dobry",
-    "price": "150"
+    "condition": "bardzo dobry",
+    "price": "420"
+  },
+  {
+    "photo": "IMG_2673.JPG",
+    "model": "Salomon BBR",
+    "length": "176",
+    "radius": "12,5",
+    "condition": "bardzo dobry",
+    "price": "350"
   },
   {
     "photo": "IMG_2646.JPG",
@@ -56,12 +56,12 @@
     "price": "360"
   },
   {
-    "photo": "IMG_20191109_191818.jpg",
-    "model": "Nordica Dobermann Spitfire Ti",
-    "length": "168",
+    "photo": "IMG_2635.JPG",
+    "model": "Atomic XT Premium",
+    "length": "170",
     "radius": "14",
-    "condition": " dobry",
-    "price": "420"
+    "condition": "bardzo dobry",
+    "price": "590"
   },
   {
     "photo": "IMG_20191109_191944.jpg",
@@ -79,14 +79,7 @@
     "condition": "idealny",
     "price": "500"
   },
-  {
-    "photo": "IMG_2635.JPG",
-    "model": "Atomic XT Premium",
-    "length": "170",
-    "radius": "14",
-    "condition": "bardzo dobry",
-    "price": "590"
-  },
+
   {
     "photo": "IMG_2607.JPG",
     "model": "Fischer RC4 Superior ",
@@ -105,7 +98,7 @@
   },
   {
     "photo": "IMG_2679.JPG",
-    "model": "Volkl Racetiger GS Junior",
+    "model": "Volkl Racetiger GS",
     "length": "140",
     "radius": "-",
     "condition": "bardzo dobry",
