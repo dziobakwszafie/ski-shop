@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "304e99905ce20ef300fac34a6296f63c",
+    "revision": "b739027735aa0066b842c41edf425f84",
     "url": "/ski-shop/index.html"
   },
   {
-    "revision": "b1e89a67335a9e64d42c",
+    "revision": "f72ab9e2269c0b3df754",
     "url": "/ski-shop/static/css/2.40ebe152.chunk.css"
   },
   {
-    "revision": "7bf6ce2c06cb9a9d2874",
-    "url": "/ski-shop/static/css/main.8ab6f918.chunk.css"
+    "revision": "32fb1495a8f1dc60ccc4",
+    "url": "/ski-shop/static/css/main.69eda509.chunk.css"
   },
   {
-    "revision": "b1e89a67335a9e64d42c",
-    "url": "/ski-shop/static/js/2.fd505232.chunk.js"
+    "revision": "f72ab9e2269c0b3df754",
+    "url": "/ski-shop/static/js/2.8456a06c.chunk.js"
   },
   {
     "revision": "68aed49bcdcbc067487a3d461801ff7e",
-    "url": "/ski-shop/static/js/2.fd505232.chunk.js.LICENSE"
+    "url": "/ski-shop/static/js/2.8456a06c.chunk.js.LICENSE"
   },
   {
-    "revision": "7bf6ce2c06cb9a9d2874",
-    "url": "/ski-shop/static/js/main.f7fe816e.chunk.js"
+    "revision": "32fb1495a8f1dc60ccc4",
+    "url": "/ski-shop/static/js/main.1b1e00bc.chunk.js"
   },
   {
     "revision": "dce52d2bf6f3366a0650",
