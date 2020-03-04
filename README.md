@@ -1,8 +1,29 @@
-## Ski shop
+# Ski shop
 
 Project of ski shop.
 At the beginning it was supposed to be a simple website with a few skis which i haven't used anymore.
-Than i decided to learn Bootstrap while bulding it. Now it will be a fully working online store made with React. I hope so :P
+Than i decided to learn Bootstrap while bulding it than React. Now it's a working online store made with React.
+
+## Getting Started 
+
+Live version you can find here: https://dziobakwszafie.github.io/ski-shop/
+
+### To run it locally
+
+Get the repo
+```
+git clone https://dziobakwszafie.github.io/ski-shop/
+```
+or 
+```
+dowload ZIP file
+```
+
+Run npm scripts
+```
+npm install 
+npm start
+```
 
 ## Built With
 
@@ -14,4 +35,4 @@ Than i decided to learn Bootstrap while bulding it. Now it will be a fully worki
 
 ## Current Status
 
-Coding in progress
+Finished 
