@@ -16,7 +16,7 @@ git clone https://dziobakwszafie.github.io/ski-shop/
 ```
 or 
 ```
-dowload ZIP file
+download ZIP file
 ```
 
 Run npm scripts
