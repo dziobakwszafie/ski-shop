@@ -67,12 +67,6 @@ const Styles = styled.div`
     color: white;
     opacity: 0.2;
   }
-  @media (max-width: 1000px) {
-    .font-weight-normal::after,
-    #intro-text::before {
-      visibility: hidden;
-    }
-  }
   #intro-text::before {
     content: "CZERWONE NAJSZYBSZE";
     font-family: "Monoton", cursive;
@@ -96,6 +90,23 @@ const Styles = styled.div`
     z-index: 100;
     color: white;
     opacity: 0.2;
+  }
+  @media (max-width: 1000px) {
+    .font-weight-normal::after,
+    #intro-text::before {
+      overflow: hidden;
+      visibility: hidden;
+      height: 0;
+      width: 0;
+    }
+  }
+  @media (max-width: 800px) {
+    .font-weight-normal::before {
+      overflow: hidden;
+      visibility: hidden;
+      height: 0;
+      width: 0;
+    }
   }
 `;
 

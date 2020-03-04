@@ -5,6 +5,7 @@ import styled from "styled-components";
 const Styles = styled.div`
   .navbar {
     background: hsla(0, 0%, 20%, 0.6) !important;
+    width: 100vw;
   }
 `;
 
