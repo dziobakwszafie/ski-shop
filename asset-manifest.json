@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ski-shop/static/css/main.69eda509.chunk.css",
-    "main.js": "/ski-shop/static/js/main.f0c15c85.chunk.js",
-    "main.js.map": "/ski-shop/static/js/main.f0c15c85.chunk.js.map",
+    "main.js": "/ski-shop/static/js/main.a19c4032.chunk.js",
+    "main.js.map": "/ski-shop/static/js/main.a19c4032.chunk.js.map",
     "runtime-main.js": "/ski-shop/static/js/runtime-main.93e3ffde.js",
     "runtime-main.js.map": "/ski-shop/static/js/runtime-main.93e3ffde.js.map",
     "static/css/2.40ebe152.chunk.css": "/ski-shop/static/css/2.40ebe152.chunk.css",
     "static/js/2.df24a639.chunk.js": "/ski-shop/static/js/2.df24a639.chunk.js",
     "static/js/2.df24a639.chunk.js.map": "/ski-shop/static/js/2.df24a639.chunk.js.map",
     "index.html": "/ski-shop/index.html",
-    "precache-manifest.01a9bd541fbe57b677b5b0d272f8ab21.js": "/ski-shop/precache-manifest.01a9bd541fbe57b677b5b0d272f8ab21.js",
+    "precache-manifest.98927180522f276717bd4ecd33fa6a6a.js": "/ski-shop/precache-manifest.98927180522f276717bd4ecd33fa6a6a.js",
     "service-worker.js": "/ski-shop/service-worker.js",
     "static/css/2.40ebe152.chunk.css.map": "/ski-shop/static/css/2.40ebe152.chunk.css.map",
     "static/css/main.69eda509.chunk.css.map": "/ski-shop/static/css/main.69eda509.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.40ebe152.chunk.css",
     "static/js/2.df24a639.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.f0c15c85.chunk.js"
+    "static/js/main.a19c4032.chunk.js"
   ]
 }
