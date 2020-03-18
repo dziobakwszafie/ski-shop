@@ -35,4 +35,4 @@ npm start
 
 ## Current Status
 
-Finished 
+:heavy_check_mark: finished 
