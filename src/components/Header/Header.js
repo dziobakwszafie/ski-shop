@@ -1,14 +1,14 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import {
   Container,
   Button,
   Row,
-  Col
+  Col,
 } from "react-bootstrap";
 import styled from "styled-components";
 import bgPhoto from "./images/bg.jpg";
 
-const Styles = styled.div`
+const GeneralStyles = styled.div`
   .container {
     height: 100vh;
     background-image: url(${bgPhoto});
@@ -42,7 +42,7 @@ const Styles = styled.div`
   .font-weight-normal {
     max-width: 550px;
   }
-  .font-weight-normal::before {
+  .bgtext::before {
     content: "#NARCIARSTWO";
     font-family: "Monoton", cursive;
     transform: rotate(90deg);
@@ -54,7 +54,7 @@ const Styles = styled.div`
     color: white;
     opacity: 0.2;
   }
-  .font-weight-normal::after {
+  .bgtext::after {
     content: "#mmm mmm nartunie";
     font-family: "Monoton", cursive;
     transform: rotate(-90deg);
@@ -110,62 +110,74 @@ const Styles = styled.div`
   }
 `;
 
-class Header extends PureComponent {
-  render() {
-    return (
-      <Styles>
-        <Container id="intro" className="p-0">
+const Header = () => {
+  return (
+    <GeneralStyles>
+      <Container id="intro" className="p-0">
+        <Container
+          id="mask"
+          className="p-0 d-flex justify-content-center align-items-center"
+        >
           <Container
-            id="mask"
-            className="p-0 d-flex justify-content-center align-items-center"
+            id="intro-text"
+            className="d-flex justify-content-center "
           >
-            <Container
-              id="intro-text"
-              className="d-flex justify-content-center "
-            >
-              <Row className="d-flex justify-content-center">
-                <Col>
-                  <h1>Narciochowa strona</h1>
-                  <div className="font-weight-normal text-center">
-                    <p>
-                      Kilka par nart i butów do sprzedania,
-                      większość w stanie dobrym lub bardzo
-                      dobrym, czasem nówki. Narty często
-                      serwisowane ręcznie. Jeśli podoba Ci
-                      się jakiś model lub chcesz dopytac o
-                      inny, to śmiało. Jeśli potrzebujesz
-                      szpej typu kijki, kask i inne bajery,
-                      to też da się załatwić.
-                    </p>
-                  </div>
-                  <Row className="d-flex align-items-center justify-content-center">
-                    <a href="#skis">
-                      <Button
-                        type="button"
-                        className="btn mx-3"
-                        variant="primary"
-                      >
-                        Narty
-                      </Button>
-                    </a>
-                    <a href="#footer">
-                      <Button
-                        type="button"
-                        className="btn mx-3"
-                        variant="light"
-                      >
-                        Kontakt
-                      </Button>
-                    </a>
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
+            <Row className="d-flex justify-content-center">
+              <Col>
+                <div className="font-weight-normal bgtext text-center">
+                  <p>
+                    Kilka par nart i butów do sprzedania,
+                    większość w stanie dobrym lub bardzo
+                    dobrym, czasem nówki. Narty często
+                    serwisowane ręcznie. Jeśli podoba Ci się
+                    jakiś model lub chcesz dopytac o inny,
+                    to śmiało. Jeśli potrzebujesz szpej typu
+                    kijki, kask i inne bajery, to też da się
+                    załatwić.
+                  </p>
+                  <p>
+                    W sprawie zrobienia im serwisu przed
+                    odebraniem, możesz śmiało pisać.
+                    Dostępne smarowanie smarami
+                    hydrokarbonowymi jak i fluorowymi, a
+                    także ostrzenie diamentami.
+                  </p>
+                </div>
+                <div className="mt-3 font-weight-normal text-primary">
+                  <p>Stan na sezon 19/20</p>
+                  <p>
+                    Aktualizacja: buty niestety wyszły i już
+                    więcej nie bedzie. Do zobaczenia w
+                    przyszłą zimę!{" "}
+                  </p>
+                </div>
+                <Row className="d-flex align-items-center justify-content-center">
+                  <a href="#skis">
+                    <Button
+                      type="button"
+                      className="btn mx-3"
+                      variant="primary"
+                    >
+                      Narty
+                    </Button>
+                  </a>
+                  <a href="#footer">
+                    <Button
+                      type="button"
+                      className="btn mx-3"
+                      variant="light"
+                    >
+                      Kontakt
+                    </Button>
+                  </a>
+                </Row>
+              </Col>
+            </Row>
           </Container>
         </Container>
-      </Styles>
-    );
-  }
-}
+      </Container>
+    </GeneralStyles>
+  );
+};
 
 export default Header;

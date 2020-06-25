@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import Skis from "../Skis/Skis";
 
-class Sort extends Component {
-  sortBy = key => {
+class Sort extends PureComponent {
+  sortBy = (key) => {
     const { data } = this.props;
 
     const sorted = data.sort((a, b) => {
@@ -12,7 +12,7 @@ class Sort extends Component {
       return a[key] < b[key] ? -1 : 1;
     });
     this.setState({
-      data: sorted
+      data: sorted,
     });
   };
 

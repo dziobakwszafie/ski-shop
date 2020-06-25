@@ -1,5 +1,9 @@
 import React from "react";
-import { Button, Modal, ButtonToolbar } from "react-bootstrap";
+import {
+  Button,
+  Modal,
+  ButtonToolbar,
+} from "react-bootstrap";
 import Contact from "../Contact/Contact";
 import styled from "styled-components";
 
@@ -12,13 +16,14 @@ const Styles = styled.text`
   }
 `;
 
-function MyVerticallyCenteredModal(props) {
+const MyVerticallyCenteredModal = (props) => {
   return (
     <Modal
       {...props}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
-      centered>
+      centered
+    >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
           <h4>
@@ -29,20 +34,25 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
         <p>
           <b>
-            Cześć, jeśli jesteś zainteresowany kupnem to skontaktuj się ze mną
-            poprzez jedną z wybranych opcji w celu sprawdzenia dostępności i
-            ustalenia szczegółów.
+            Cześć, jeśli jesteś zainteresowany kupnem to
+            skontaktuj się ze mną poprzez jedną z wybranych
+            opcji w celu sprawdzenia dostępności i ustalenia
+            szczegółów.
           </b>
         </p>
         <p>
-          <b>Możliwy jest zarówno odbiór osobisty jak i wysyłka.</b>
+          <b>
+            Możliwy jest zarówno odbiór osobisty jak i
+            wysyłka.
+          </b>
         </p>
         <p>
-          Możesz być ciekawy albo ciekawa, czemu nie da się po prostu kupić,
-          wysłać blika i niech mi przywiozą. Wynika to z tego, że najlepszą
-          opcją jest odbiór osobisty, zarówno dla mnie, jak i dla Ciebie. A poza
-          tym w sezonie coś może się sprzedac gdzie indziej, więc trzeba pytać o
-          dostępność.
+          Możesz być ciekawy albo ciekawa, czemu nie da się
+          po prostu kupić, wysłać blika i niech mi
+          przywiozą. Wynika to z tego, że najlepszą opcją
+          jest odbiór osobisty, zarówno dla mnie, jak i dla
+          Ciebie. A poza tym w sezonie coś może się sprzedac
+          gdzie indziej, więc trzeba pytać o dostępność.
         </p>
         <Styles>
           <div></div>
@@ -56,13 +66,18 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Footer>
     </Modal>
   );
-}
+};
 
 function ModalB(props) {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <ButtonToolbar>
-      <Button variant="dark" onClick={() => setModalShow(true)} size="md" block>
+      <Button
+        variant="dark"
+        onClick={() => setModalShow(true)}
+        size="md"
+        block
+      >
         cena: {props.price} zł
       </Button>
 

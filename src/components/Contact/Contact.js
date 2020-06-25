@@ -7,11 +7,11 @@ import smsIcon from "./sms.png";
 
 const ImgStyles = styled.div`
   #whatsappIcon {
-    height: 70px;
+    height: 60px;
     width: auto;
   }
   #phoneIcon {
-    height: 60px;
+    height: 50px;
     width: auto;
   }
   b {
@@ -22,7 +22,7 @@ const ImgStyles = styled.div`
   }
 `;
 
-function Contact(props) {
+const Contact = (props) => {
   return (
     <React.Fragment {...props}>
       <Row className="mb-2 d-flex justify-content-center align-items-center">
@@ -32,7 +32,7 @@ function Contact(props) {
           className="d-flex justify-content-end"
         >
           <ImgStyles>
-            <a href="https://wa.me/48534799219">
+            <a href="https://wa.me/123456789">
               <img
                 src={whatsappIcon}
                 id="whatsappIcon"
@@ -47,7 +47,7 @@ function Contact(props) {
           className="d-flex justify-content-center"
         >
           <ImgStyles>
-            <a href="sms:534799219&body=Cześć, jestem zainteresowany nartami, proszę o kontakt.">
+            <a href="sms:123456789&body=Cześć, jestem zainteresowany nartami, proszę o kontakt.">
               <img
                 src={smsIcon}
                 id="phoneIcon"
@@ -63,7 +63,7 @@ function Contact(props) {
           className="d-flex justify-content-center"
         >
           <ImgStyles>
-            <a href="sms:534799219?body=Cześć, jestem zainteresowany nartami, proszę o kontakt.">
+            <a href="sms:123456789?body=Cześć, jestem zainteresowany nartami, proszę o kontakt.">
               <img
                 src={smsIcon}
                 id="phoneIcon"
@@ -79,7 +79,7 @@ function Contact(props) {
           className="d-flex justify-content-start"
         >
           <ImgStyles>
-            <a href="tel:534799219">
+            <a href="tel:123456789">
               <img
                 src={phoneIcon}
                 id="phoneIcon"
@@ -96,11 +96,11 @@ function Contact(props) {
       </Row>
       <Row className="d-flex justify-content-center align-items-center">
         <p>
-          <b>534-799-219</b>
+          <b>***-***-***</b>
         </p>
       </Row>
     </React.Fragment>
   );
-}
+};
 
 export default Contact;

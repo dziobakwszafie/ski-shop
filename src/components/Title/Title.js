@@ -11,20 +11,18 @@ const Styles = styled.text`
   a.anchor {
     display: block;
     position: relative;
-    top: -215px;
+    top: -170px;
     visibility: hidden;
   }
 `;
 
-class Title extends PureComponent {
-  render() {
-    return (
-      <Styles>
-        <h2 class="skis-heading text-center">Narty</h2>
-        <a class="anchor" id="skis"></a>
-      </Styles>
-    );
-  }
-}
+const Title = () => {
+  return (
+    <Styles>
+      <h2 class="skis-heading text-center">Narty</h2>
+      <a class="anchor" id="skis"></a>
+    </Styles>
+  );
+};
 
 export default Title;

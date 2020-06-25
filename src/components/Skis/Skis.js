@@ -10,16 +10,11 @@ import styled from "styled-components";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
-const Styles = styled.text`
-  h4 {
-    font-family: "Roboto", sans-serif;
-  }
-  p {
-    margin-bottom: 5px;
-  }
+const StylesText = styled.p`
+  margin-bottom: 5px;
 `;
 
-const SkisPhoto = styled.div`
+const StylesSkisPhoto = styled.div`
   transform: scale(1);
   transition: all 1s;
   filter: blur(1px);
@@ -51,21 +46,21 @@ const Skis = ({ data, sortBy }) => (
       </Button>
     </Container>
 
-    <Styles>
-      <Row>
-        {data.map((row) => (
-          <Col xs={12} md={6} lg={4} xl={3}>
-            <Row className="m-2">
-              <Col className="p-2">
-                <SkisPhoto>
-                  <Zoom>
-                    <img
-                      src={`${iconPath}${row.photo}`}
-                      alt="Skis"
-                      width="100%"
-                    />
-                  </Zoom>
-                </SkisPhoto>
+    <Row>
+      {data.map((row) => (
+        <Col xs={12} md={6} lg={4} xl={3}>
+          <Row className="m-2">
+            <Col className="p-2">
+              <StylesSkisPhoto>
+                <Zoom>
+                  <img
+                    src={`${iconPath}${row.photo}`}
+                    alt="Skis"
+                    width="100%"
+                  />
+                </Zoom>
+              </StylesSkisPhoto>
+              <StylesText>
                 {/* If you used create-react-app to create your project then your public folder is accessible. So you need to add your image folder inside the public folder. */}
                 <p>
                   <b>Model: </b>
@@ -82,17 +77,17 @@ const Skis = ({ data, sortBy }) => (
                   <b>Stan ślizgu: </b>
                   {row.condition}
                 </p>
-                <ModalB
-                  model={row.model}
-                  price={row.price}
-                  length={row.length}
-                />
-              </Col>
-            </Row>
-          </Col>
-        ))}
-      </Row>
-    </Styles>
+              </StylesText>
+              <ModalB
+                model={row.model}
+                price={row.price}
+                length={row.length}
+              />
+            </Col>
+          </Row>
+        </Col>
+      ))}
+    </Row>
   </Container>
 );
 

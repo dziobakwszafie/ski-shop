@@ -1,6 +1,7 @@
-[{
+[
+  {
     "photo": "Racetiger580.jpg",
-    "model": "Voelkl Racetiger GS UVO",
+    "model": "Voelkl Racetiger GS",
     "length": "175",
     "radius": "17,9",
     "condition": "dobry",
@@ -8,7 +9,7 @@
   },
   {
     "photo": "Racetiger680.jpg",
-    "model": "Voelkl Racetiger GS UVO",
+    "model": "Voelkl Racetiger GS",
     "length": "175",
     "radius": "17,9",
     "condition": "dobry",
@@ -16,7 +17,7 @@
   },
   {
     "photo": "IMG_20191109_191818.jpg",
-    "model": "Nordica Dobermann Spitfire Ti",
+    "model": "Nordica Spitfire Ti",
     "length": "168",
     "radius": "14",
     "condition": " dobry",
@@ -24,8 +25,8 @@
   },
   {
     "photo": "IMG_20190925_163902.jpg",
-    "model": "Dynastar Speedcourse Ti",
-    "length": "177",
+    "model": "Dynastar Speedcourse",
+    "length": "170",
     "radius": "16",
     "condition": "bardzo dobry",
     "price": "450"
@@ -49,7 +50,7 @@
   {
     "photo": "IMG_2635.JPG",
     "model": "Atomic XT Premium",
-    "length": "170",
+    "length": "177",
     "radius": "14",
     "condition": "bardzo dobry",
     "price": "590"
@@ -57,18 +58,18 @@
   {
     "photo": "IMG_2607.JPG",
     "model": "Fischer RC4 Superior ",
-    "length": "175",
+    "length": "176",
     "radius": "17",
     "condition": "bardzo dobry",
-    "price": "450"
+    "price": "650"
   },
   {
     "photo": "IMG_2593.JPG",
     "model": "Atomic Nomad",
     "length": "178",
     "radius": "15,1",
-    "condition": "bardzo dobry",
-    "price": "450"
+    "condition": "nowe",
+    "price": "570"
   },
   {
     "photo": "IMG_2679.JPG",
@@ -86,14 +87,7 @@
     "condition": " dobry",
     "price": "280"
   },
-  {
-    "photo": "K2.jpg",
-    "model": "K2 Indy ",
-    "length": "100",
-    "radius": "-",
-    "condition": " dobry",
-    "price": "180"
-  },
+
   {
     "photo": "IMG_2603.JPG",
     "model": "Fischer RC4 WorldCup ",

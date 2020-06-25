@@ -1,21 +1,23 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import styled from "styled-components";
 
-const Styles = styled.div`
+const StylesNaviBar = styled.div`
   .navbar {
     background: hsla(0, 0%, 20%, 0.6) !important;
     width: 100vw;
+    height: 60px;
   }
 `;
 
-const Bar = styled.text`
+const StylesBar = styled.text`
   #logo-text {
+    overflow: hidden;
     font-family: "Abril Fatface", cursive;
-    font-size: 60px !important;
+    font-size: 70px !important;
   }
 `;
-const Navlinks = styled.p`
+const StylesNavlinks = styled.p`
   #black {
     color: white;
     display: inline-block;
@@ -25,34 +27,32 @@ const Navlinks = styled.p`
   }
 `;
 
-class Navigation extends PureComponent {
-  render() {
-    return (
-      <Styles>
-        <Navbar fixed="top" bg="dark" variant="dark">
-          <Bar>
-            <Navbar.Brand
-              className="p-0 m-0"
-              href="#intro"
-              id="logo-text"
-            >
+const Navigation = () => {
+  return (
+    <StylesNaviBar>
+      <Navbar fixed="top" bg="dark" variant="dark">
+        <StylesBar>
+          <Navbar.Brand
+            className="p-0 ml-5"
+            href="#intro"
+            id="logo-text"
+          >
+            Zimowa szpejoza
+          </Navbar.Brand>
+        </StylesBar>
+        <Container className="justify-content-end">
+          <StylesNavlinks>
+            <Nav.Link href="#skis" id="black">
               Narty
-            </Navbar.Brand>
-          </Bar>
-          <Container className="justify-content-end">
-            <Navlinks>
-              <Nav.Link href="#skis" id="black">
-                Narty
-              </Nav.Link>
-              <Nav.Link href="#footer" id="black">
-                Kontakt
-              </Nav.Link>
-            </Navlinks>
-          </Container>
-        </Navbar>
-      </Styles>
-    );
-  }
-}
+            </Nav.Link>
+            <Nav.Link href="#footer" id="black">
+              Kontakt
+            </Nav.Link>
+          </StylesNavlinks>
+        </Container>
+      </Navbar>
+    </StylesNaviBar>
+  );
+};
 
 export default Navigation;
