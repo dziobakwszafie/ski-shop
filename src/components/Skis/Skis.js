@@ -3,7 +3,7 @@ import {
   Button,
   Container,
   Row,
-  Col
+  Col,
 } from "react-bootstrap";
 import ModalB from "../ModalBuy/ModalB";
 import styled from "styled-components";
@@ -16,6 +16,16 @@ const Styles = styled.text`
   }
   p {
     margin-bottom: 5px;
+  }
+`;
+
+const SkisPhoto = styled.div`
+  transform: scale(1);
+  transition: all 1s;
+  filter: blur(1px);
+  :hover {
+    transform: scale(1.2);
+    filter: blur(0);
   }
 `;
 
@@ -43,17 +53,19 @@ const Skis = ({ data, sortBy }) => (
 
     <Styles>
       <Row>
-        {data.map(row => (
+        {data.map((row) => (
           <Col xs={12} md={6} lg={4} xl={3}>
             <Row className="m-2">
               <Col className="p-2">
-                <Zoom>
-                  <img
-                    src={`${iconPath}${row.photo}`}
-                    alt="Skis"
-                    width="100%"
-                  />
-                </Zoom>
+                <SkisPhoto>
+                  <Zoom>
+                    <img
+                      src={`${iconPath}${row.photo}`}
+                      alt="Skis"
+                      width="100%"
+                    />
+                  </Zoom>
+                </SkisPhoto>
                 {/* If you used create-react-app to create your project then your public folder is accessible. So you need to add your image folder inside the public folder. */}
                 <p>
                   <b>Model: </b>
