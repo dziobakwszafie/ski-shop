@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const Styles = styled.text`
@@ -20,7 +20,9 @@ const Title = () => {
   return (
     <Styles>
       <h2 class="skis-heading text-center">Narty</h2>
-      <a class="anchor" id="skis"></a>
+      <a class="anchor" id="skis">
+        none
+      </a>
     </Styles>
   );
 };
