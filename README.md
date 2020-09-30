@@ -6,6 +6,8 @@ Than i decided to learn Bootstrap while bulding it than React. Now it's a workin
 
 My first project with React. 
 
+[![CodeFactor](https://www.codefactor.io/repository/github/dziobakwszafie/ski-shop/badge)](https://www.codefactor.io/repository/github/dziobakwszafie/ski-shop)
+
 ## Current Status
 
 :heavy_check_mark: finished 
