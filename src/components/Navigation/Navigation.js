@@ -26,25 +26,28 @@ const StylesNavlinks = styled.p`
     margin-top: 10px;
   }
 `;
+const Title = styled.h1`
+  font-size: 80px;
+
+  @media (max-width: 850px) {
+    font-size: 40px;
+  }
+  @media (max-width: 500px) {
+    font-size: 20px;
+  }
+`;
 
 const Navigation = () => {
   return (
     <StylesNaviBar>
       <Navbar fixed="top" bg="dark" variant="dark">
         <StylesBar>
-          <Navbar.Brand
-            className="p-0 ml-5"
-            href="#intro"
-            id="logo-text"
-          >
-            Zimowa szpejoza
+          <Navbar.Brand className="p-0 ml-5" href="#intro" id="logo-text">
+            <Title>Zimowa szpejoza</Title>
           </Navbar.Brand>
         </StylesBar>
         <Container className="justify-content-end">
           <StylesNavlinks>
-            <Nav.Link href="#skis" id="black">
-              Narty
-            </Nav.Link>
             <Nav.Link href="#footer" id="black">
               Kontakt
             </Nav.Link>

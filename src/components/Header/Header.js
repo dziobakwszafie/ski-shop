@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Button,
-  Row,
-  Col,
-} from "react-bootstrap";
+import { Container, Button, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import bgPhoto from "./images/bg.jpg";
 
@@ -118,37 +113,28 @@ const Header = () => {
           id="mask"
           className="p-0 d-flex justify-content-center align-items-center"
         >
-          <Container
-            id="intro-text"
-            className="d-flex justify-content-center "
-          >
+          <Container id="intro-text" className="d-flex justify-content-center ">
             <Row className="d-flex justify-content-center">
               <Col>
                 <div className="font-weight-normal bgtext text-center">
                   <p>
-                    Kilka par nart i butów do sprzedania,
-                    większość w stanie dobrym lub bardzo
-                    dobrym, czasem nówki. Narty często
-                    serwisowane ręcznie. Jeśli podoba Ci się
-                    jakiś model lub chcesz dopytac o inny,
-                    to śmiało. Jeśli potrzebujesz szpej typu
-                    kijki, kask i inne bajery, to też da się
-                    załatwić.
+                    Kilka par nart i butów do sprzedania, większość w stanie
+                    dobrym lub bardzo dobrym, czasem nówki. Narty często
+                    serwisowane ręcznie. Jeśli podoba Ci się jakiś model lub
+                    chcesz dopytac o inny, to śmiało. Jeśli potrzebujesz szpej
+                    typu kijki, kask i inne bajery, to też da się załatwić.
                   </p>
                   <p>
-                    W sprawie zrobienia im serwisu przed
-                    odebraniem, możesz śmiało pisać.
-                    Dostępne smarowanie smarami
-                    hydrokarbonowymi jak i fluorowymi, a
-                    także ostrzenie diamentami.
+                    W sprawie zrobienia im serwisu przed odebraniem, możesz
+                    śmiało pisać. Dostępne smarowanie smarami hydrokarbonowymi
+                    jak i fluorowymi, a także ostrzenie diamentami.
                   </p>
                 </div>
                 <div className="mt-3 font-weight-normal text-primary">
                   <p>Stan na sezon 19/20</p>
                   <p>
-                    Aktualizacja: buty niestety wyszły i już
-                    więcej nie bedzie. Do zobaczenia w
-                    przyszłą zimę!{" "}
+                    Aktualizacja: buty niestety wyszły i już więcej nie bedzie.
+                    Do zobaczenia w przyszłą zimę!{" "}
                   </p>
                 </div>
                 <Row className="d-flex align-items-center justify-content-center">
@@ -162,11 +148,7 @@ const Header = () => {
                     </Button>
                   </a>
                   <a href="#footer">
-                    <Button
-                      type="button"
-                      className="btn mx-3"
-                      variant="light"
-                    >
+                    <Button type="button" className="btn mx-3" variant="light">
                       Kontakt
                     </Button>
                   </a>
