@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/ski-shop/static/css/main.69eda509.chunk.css",
-    "main.js": "/ski-shop/static/js/main.1c3212ff.chunk.js",
-    "main.js.map": "/ski-shop/static/js/main.1c3212ff.chunk.js.map",
-    "runtime-main.js": "/ski-shop/static/js/runtime-main.93e3ffde.js",
-    "runtime-main.js.map": "/ski-shop/static/js/runtime-main.93e3ffde.js.map",
-    "static/css/2.40ebe152.chunk.css": "/ski-shop/static/css/2.40ebe152.chunk.css",
-    "static/js/2.5535be5a.chunk.js": "/ski-shop/static/js/2.5535be5a.chunk.js",
-    "static/js/2.5535be5a.chunk.js.map": "/ski-shop/static/js/2.5535be5a.chunk.js.map",
+    "main.js": "/ski-shop/static/js/main.b39d56e4.chunk.js",
+    "main.js.map": "/ski-shop/static/js/main.b39d56e4.chunk.js.map",
+    "runtime-main.js": "/ski-shop/static/js/runtime-main.e937f553.js",
+    "runtime-main.js.map": "/ski-shop/static/js/runtime-main.e937f553.js.map",
+    "static/css/2.1a1d8630.chunk.css": "/ski-shop/static/css/2.1a1d8630.chunk.css",
+    "static/js/2.5f15e162.chunk.js": "/ski-shop/static/js/2.5f15e162.chunk.js",
+    "static/js/2.5f15e162.chunk.js.map": "/ski-shop/static/js/2.5f15e162.chunk.js.map",
     "index.html": "/ski-shop/index.html",
-    "precache-manifest.2c0d73e977a411033c5906deb77d470c.js": "/ski-shop/precache-manifest.2c0d73e977a411033c5906deb77d470c.js",
+    "precache-manifest.84635e3588a84f363e7c7f3582430f41.js": "/ski-shop/precache-manifest.84635e3588a84f363e7c7f3582430f41.js",
     "service-worker.js": "/ski-shop/service-worker.js",
-    "static/css/2.40ebe152.chunk.css.map": "/ski-shop/static/css/2.40ebe152.chunk.css.map",
+    "static/css/2.1a1d8630.chunk.css.map": "/ski-shop/static/css/2.1a1d8630.chunk.css.map",
     "static/css/main.69eda509.chunk.css.map": "/ski-shop/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.5535be5a.chunk.js.LICENSE": "/ski-shop/static/js/2.5535be5a.chunk.js.LICENSE",
+    "static/js/2.5f15e162.chunk.js.LICENSE.txt": "/ski-shop/static/js/2.5f15e162.chunk.js.LICENSE.txt",
     "static/media/bg.jpg": "/ski-shop/static/media/bg.ed9293e4.jpg",
     "static/media/sms.png": "/ski-shop/static/media/sms.8c3ebee5.png",
     "static/media/whatsapp.png": "/ski-shop/static/media/whatsapp.c3f70146.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.93e3ffde.js",
-    "static/css/2.40ebe152.chunk.css",
-    "static/js/2.5535be5a.chunk.js",
+    "static/js/runtime-main.e937f553.js",
+    "static/css/2.1a1d8630.chunk.css",
+    "static/js/2.5f15e162.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.1c3212ff.chunk.js"
+    "static/js/main.b39d56e4.chunk.js"
   ]
 }
