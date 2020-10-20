@@ -8,21 +8,12 @@ const Styles = styled.text`
     padding: 10px 0;
     margin-top: 20px;
   }
-  a.anchor {
-    display: block;
-    position: relative;
-    top: -170px;
-    visibility: hidden;
-  }
 `;
 
 const Title = () => {
   return (
-    <Styles>
+    <Styles id="skis">
       <h2 class="skis-heading text-center">Narty</h2>
-      <a class="anchor" id="skis">
-        none
-      </a>
     </Styles>
   );
 };
