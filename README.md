@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![GitHub Issues](https://img.shields.io/github/issues/dziobakwszafie/readme-template-example)](https://github.com/dziobakwszafie/readme-template-example/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/dziobakwszafie/readme-template-example)](https://github.com/dziobakwszafie/readme-template-example/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/dziobakwszafie/ski-shop)](https://github.com/dziobakwszafie/ski-shop/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/dziobakwszafie/ski-shop)](https://github.com/dziobakwszafie/ski-shop/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
